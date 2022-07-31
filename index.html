@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/app.css" />
+  </head>
+  <body>
+    <header class="tumHeadearBg">
+      <div class="headerWrapper">
+        <div class="headerControls">
+          <h1>Dashboard</h1>
+          <article>
+            <button class="tumcoin-btn primaryBtn">Sell My TumCoin</button>
+            <button class="tumcoin-btn secondaryBtn">Upload TumCoin</button>
+          </article>
+        </div>
+        <p>
+          Welcome to tumcoin, you can view your transactions, upload a wallet
+          and sell your tumcoin from here!
+        </p>
+      </div>
+    </header>
+    <main>
+      <section class="balanceWrapper">
+        <p>Total Tumcoin Balance</p>
+        <!-- Use queryselector to update this element. 
+            Placeholder balance is placed here-->
+        <h2 id="current-balance">$0.00</h2>
+        <p class="tumcoin-text-sm">Your tumcoin assets will appear here.</p>
+      </section>
+      <!-- Update actions with javascript if no wallet exists -->
+      <section class="mobile-actions">
+        <button>Sell My Tumcoin</button>
+        <button>Upload Wallet</button>
+      </section>
+      <section class="transactionWrapper">
+        <h1>Transactions</h1>
+        <div class="transactionsHeader">
+          <p>TUMCOIN ADDRESS</p>
+          <p>AMOUNT</p>
+        </div>
+        <!-- Use query this object and inject html for transactions, 
+            with the formatted classes below-->
+        <div id="transaction-list">
+          <article class="tumcoinTransaction">
+            <p class="tumcoinAddress">n4m1xDAKf7joN5yMj7AUtdjMGeNzyNyRUL</p>
+            <p>$20</p>
+          </article>
+          <article class="tumcoinTransaction">
+            <p class="tumcoinAddress">n4m1xDAKf7joN5yMj7AUtdjMGeNzyNyRUL</p>
+            <p>$20</p>
+          </article>
+          <article class="tumcoinTransaction">
+            <p class="tumcoinAddress">n4m1xDAKf7joN5yMj7AUtdjMGeNzyNyRUL</p>
+            <p>$20</p>
+          </article>
+          <article class="tumcoinTransaction">
+            <p class="tumcoinAddress">n4m1xDAKf7joN5yMj7AUtdjMGeNzyNyRUL</p>
+            <p>$20</p>
+          </article>
+          <article class="tumcoinTransaction">
+            <p class="tumcoinAddress">n4m1xDAKf7joN5yMj7AUtdjMGeNzyNyRUL</p>
+            <p>$20</p>
+          </article>
+          <article class="tumcoinTransaction">
+            <p class="tumcoinAddress">n4m1xDAKf7joN5yMj7AUtdjMGeNzyNyRUL</p>
+            <p>$20</p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <script src="" async defer></script>
+  </body>
+</html>

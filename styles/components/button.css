@@ -1,0 +1,26 @@
+.tumcoin-btn{
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin: 0 4px;
+}
+
+.tumcoin-btn{
+    cursor: pointer;
+}
+
+.primaryBtn{
+    background: var(--light);
+    border: none;
+
+}
+
+
+.lightBtn{
+
+}
+.secondaryBtn{
+    background: var(--primary);
+    border: 1px solid var(--light);
+    color: var(--light);
+    
+}

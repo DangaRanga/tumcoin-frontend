@@ -1,0 +1,40 @@
+.tumHeadearBg{
+    background-color: var(--primary);
+}
+
+.headerWrapper{
+    padding: 15px 20px;
+    color: #fff;
+}
+
+.headerWrapper p{
+    font-size: 0.8em;
+    font-weight: light;
+    width: 40%;
+    margin-top: 5px;
+}
+
+.headerControls{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+    .headerWrapper{
+        padding: 40px 15px; 
+    }
+    .headerWrapper p{
+        font-size: 1em;
+        width: 70%;
+    }
+    .tumHeadearBg{
+        
+    }
+
+    .headerWrapper button{
+        display: none;
+    }
+}
