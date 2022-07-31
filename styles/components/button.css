@@ -8,19 +8,28 @@
     cursor: pointer;
 }
 
-.primaryBtn{
+.primary-btn{
+    background: var(--primary);
+    color: var(--light);
+    border: none;
+}
+
+.secondary-btn{
+    background: var(--light);
+    border: 1px solid var(--primary);
+    color: var(--primary);
+
+}
+.primary-btn-light{
     background: var(--light);
     border: none;
 
 }
 
-
-.lightBtn{
-
-}
-.secondaryBtn{
+.secondary-btn-light{
     background: var(--primary);
     border: 1px solid var(--light);
     color: var(--light);
-    
 }
+
+

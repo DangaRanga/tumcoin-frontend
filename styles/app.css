@@ -7,6 +7,8 @@
 /* Component Imports */
 @import url("./components/header.css");
 @import url("./components/button.css");
+@import url("./components/balance.css");
+@import url("./components/transactions.css");
 
 
 /* Global Styles */
@@ -14,4 +16,29 @@
     margin: 0;
     padding: 0;
     font-family: Poppins;
+    overflow-x: hidden;
+}
+
+.mobile-actions{
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .mobile-actions{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        width: 90%;
+        justify-content: center;
+        align-content: center;
+        margin: 120px auto auto auto;
+    }
+
+    .mobile-actions button{
+        margin: 5px 0;
+    }
+    .tumcoin-text-sm{
+        font-size: 0.7em;
+    }
 }
